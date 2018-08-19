@@ -5,3 +5,4 @@ This repository contains the list of programs written as a part of the Informati
 File Name | Description
 --- | ---
 WebLinks.py | Basic program to connect to a webpage, fetch all the links associated with it and print it in the console.
+LinksCrawler.py | Fetches the links on a page, adds them to a queue, visits them one by one and adds to a visited list. This process is looped until the queue is empty
