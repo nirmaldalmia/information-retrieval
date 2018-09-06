@@ -9,3 +9,4 @@ LinksCrawler.py | Fetches the links on a page, adds them to a queue, visits them
 LinksAndTextCrawler.py | Added functionality to fetch and print the text on the webpage
 Tokenize.py | Added tokenization of text on the webpage. Currently, limited to the text in 'p' tags only
 InvertedIndex.py | A dictionary based inverted index to store the tokens and their corresponding links
+FocusedCrawler.py | Along with the seed URL it also takes keywords. Crawling is done and the page is indexed only if the page contains those keywords exactly.
